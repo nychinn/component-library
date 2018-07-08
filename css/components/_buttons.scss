@@ -1,0 +1,15 @@
+
+
+.button {
+	@include rem(padding-left, 12px);
+	@include rem(padding-right, 12px);
+	@include rem(padding-top, 6px);
+	@include rem(padding-bottom, 6px);
+	box-sizing: border-box;
+	display: inline-block;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #{$lightgrey};
+	border-radius: 3px;
+	white-space: nowrap;
+}
