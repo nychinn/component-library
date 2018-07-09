@@ -1,41 +1,39 @@
 
 .field {
-		
-}
-
-.field_input {
-	@include rem(padding-left, 12px);
-	@include rem(padding-right, 12px);
-	@include rem(padding-top, 6px);
-	@include rem(padding-bottom, 6px);
-	display: inline-block;
-	max-width: 100%;
-	width: 100%;
-	box-sizing: border-box;
-	height: 36px;
-}
-
-.field_select {
-	display: inline-block;
-	max-width: 100%;
-	width: 100%;
-	border-width: 1px;
-	border-style: solid;
-	border-color: $lightgrey;
-	box-sizing: border-box;
-	
-	select {
+	&__input {
 		@include rem(padding-left, 12px);
 		@include rem(padding-right, 12px);
 		@include rem(padding-top, 6px);
 		@include rem(padding-bottom, 6px);
-		height: 36px;
-		border: 0;
+		display: inline-block;
+		max-width: 100%;
 		width: 100%;
-		line-height: 1;
-		background-color: transparent;
-		-webkit-appearance: none;
-		   -moz-appearance: none;
-		        appearance: none;
+		box-sizing: border-box;
+		height: 36px;
+	}
+
+	&__select {
+		display: inline-block;
+		max-width: 100%;
+		width: 100%;
+		border-width: 1px;
+		border-style: solid;
+		border-color: $lightgrey;
+		box-sizing: border-box;
+		
+		select {
+			@include rem(padding-left, 12px);
+			@include rem(padding-right, 12px);
+			@include rem(padding-top, 6px);
+			@include rem(padding-bottom, 6px);
+			height: 36px;
+			border: 0;
+			width: 100%;
+			line-height: 1;
+			background-color: transparent;
+			-webkit-appearance: none;
+			   -moz-appearance: none;
+			        appearance: none;
+		}
 	}
 }
